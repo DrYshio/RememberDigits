@@ -1,13 +1,13 @@
 body{
     margin-top: 0px;
-    background-color: azure;
+    background-color:rgb(56, 90, 202);;
 }
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: aquamarine;
+    background-color: rgb(97, 152, 235);
     padding-top: 0px;
     height: 70px;
     margin-left: auto;
@@ -25,6 +25,9 @@ header {
     margin-right: 40px;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    word-spacing: 3px;
 }
 
 main {
@@ -33,6 +36,7 @@ main {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    background-color: seashell;
 }
 .line_one {
     display: flex;
@@ -57,11 +61,18 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 40px;
     margin-left: 150px;
     margin-right: 150px;
 }
 
 button {
-    height: 150px;
+    height: 125px;
     width: 100px;
+}
+
+footer {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
